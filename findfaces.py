@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 from skimage import data, img_as_float
 from skimage.metrics import structural_similarity as ssim
 from skimage import io
