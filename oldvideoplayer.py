@@ -13,7 +13,7 @@ def flick(x):
 
 def PlayVideo(summary_frame_path, summary_audio_path):
 
-    # video = sys.argv[1] 
+    # video = sys.argv[1]
     videobuffer = []
     files = [int(os.path.splitext(f)[0]) for f in os.listdir(summary_frame_path) if isfile(join(summary_frame_path,f))]
     # sort the files
